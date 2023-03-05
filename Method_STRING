@@ -1,0 +1,17 @@
+public class Method_STRING {
+	String display()
+	{
+		return "welcome";//Print return value
+	}
+	
+	public static void main(String[] args) {
+		Method_STRING c=new Method_STRING();
+		c.display();
+	    String name=c.display();// string is stored in name variable
+		
+		System.out.println(c.display() /*cbj.fn() gives return value */+"all");
+	     System.out.println(name);//prints the value in stored variable
+
+	}
+
+}
