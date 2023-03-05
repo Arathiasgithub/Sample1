@@ -1,0 +1,27 @@
+public class BIODATA_methods {
+	void display()
+	{
+		System.out.println("name=arathi");
+		System.out.println("place=trivandrum");
+		System.out.println("pn no=7025440087");
+	}
+	String display2()
+	{
+		String name="arathi.a.s";
+		System.out.println(name);
+		String place="thiruvananthapuram";
+		System.out.println(place);
+		String phno="702440087";
+		System.out.println(phno);
+		return"";
+	}
+
+
+	public static void main(String[] args) {
+		BIODATA_methods b=new BIODATA_methods();
+		b.display();
+		b.display2();
+
+	}
+
+}
