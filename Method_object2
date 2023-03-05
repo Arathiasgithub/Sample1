@@ -1,0 +1,23 @@
+public class Method_object2 {
+	String display()
+	{
+		 String n=" arathi";
+		 System.out.println("my name is "  +n);
+		 return "";
+		 
+	}
+	void edu()
+	{ 
+		String n="mohandas college";
+		System.out.println(" college name: "  +n);
+		
+		
+	}
+	public static void main(String[] args) {
+		Method_object2 c=new Method_object2();
+		c.display();
+		c.edu();
+
+	}
+
+}
